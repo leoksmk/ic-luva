@@ -6,7 +6,7 @@ mp_hands = mp.solutions.hands
 hands = mp_hands.Hands(static_image_mode=False, max_num_hands=1)
 cap = cv2.VideoCapture(0)
 
-label = "c"  # Mude para a letra desejada antes de coletar
+label = "a"  # Mude para a letra desejada antes de coletar
 arquivo_csv = open("gestos.csv", mode='a', newline='')
 writer = csv.writer(arquivo_csv)
 
